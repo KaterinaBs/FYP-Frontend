@@ -1,0 +1,17 @@
+footer {
+    height: 80px;
+    display: grid;
+    place-items: center;
+    background: #ffffff;
+    opacity: 0.5;
+    box-shadow: 0px 0px 10px #ccc;  
+}
+
+
+footer p {
+    font-size: 10px;
+    text-decoration:underline;
+    color:rgb(0, 0, 0);
+    
+
+}

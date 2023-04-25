@@ -1,0 +1,56 @@
+
+div.cardLayout {
+    font-size: 90%;
+    width: 300px;
+    height: 270px;
+    margin-top: 40px;
+    box-shadow: 0px 0px 10px #ccc;
+  }
+  div.cardLayout > div.cardImg {
+    width: 100%;
+    height: 150px;
+    border-radius: 5px 5px 0px 0px;
+  }
+  div.cardLayout > div.cardImg > img {
+    width: 100%;
+    height: 100%;
+  }
+  div.cardLayout > div.cardDetails {
+    width: 100%;
+    height: 100px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 0px 0px 10px 10px;
+    font-family:Arial, Helvetica, sans-serif; 
+    color: #676767;
+  }
+  div.cardLayout > div.cardDetails > h1 {
+    font-size: inherit;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start; 
+    font-size: 17px;
+  }
+  div.cardLayout > div.cardDetails > div.CardButtons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;  
+  }
+.viewHomework , .assignmentskButton{
+  font-size: 15px;
+  text-decoration: none;
+  color:#76ad84;
+  font-family: 'Roboto', Helvetica, Helvetica Neue, Arial, sans-serif;
+  font-weight: bold;
+  background-color: #ffffff;  
+  border: 0px;
+  cursor: pointer;
+}
+
+ 
+  
+  
+  

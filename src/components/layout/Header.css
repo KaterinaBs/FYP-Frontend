@@ -1,0 +1,58 @@
+  
+header {
+   background: white; 
+   padding:15px;
+   text-align: center;
+   height: 90px;
+   box-shadow: 0px 0px 10px #ccc;  
+}
+header li{
+   display: inline;
+   padding-left: 40px;
+}
+header li a{
+   color: gray;
+   text-decoration: none;
+   font-family: Arial, Helvetica, sans-serif;
+}
+header li a:hover{
+   color: #76ad84;
+}
+.logout{
+   width: 50px;
+   float: right;
+   position: relative;
+   top:-35px;
+   padding:8px;
+   cursor: pointer;
+   border:none;
+} 
+button.logout:hover{
+   color: #ffffff;
+}
+.navBar{
+   margin-top: 20px;
+}
+
+header a.logo {
+   text-decoration: none;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-left: 20px;
+   margin-top: -60px;;
+   font-size: 20px;
+   float: left; 
+}
+.list a.navSelected{
+   color:#76ad84;
+
+}
+.list a {
+   color:gray;
+   text-decoration: none;
+
+}
+.welcome {
+   margin-left: 70%;
+   margin-top: -20px;
+ }
+

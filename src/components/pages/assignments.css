@@ -1,0 +1,67 @@
+/* div.wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    margin-top: 40px;
+}
+div.panels{
+    width: 800px;  
+}
+div.items{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background-color: #95b6ab;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+}
+div.title{
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer; 
+}
+div.assignmentTitle{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:15px;
+
+}
+div.content{
+    max-height: 8;
+    overflow: hidden;
+    
+}
+div.contentTrue{
+  
+    border-radius: 20px;
+    background-color: aliceblue;
+    padding: 10px;
+    height: auto;
+    max-height: 9999;
+    margin-top: 10px;
+}
+.panelsDet{
+    font-size:x-large
+}
+.details{
+    font-size: medium;
+    font-weight:200
+}
+.deadline{
+    display: flex;
+    flex-direction: row;  
+}
+.dueday{
+    margin-left: 10px;
+    font-size: medium;
+    font-weight:200;
+    margin-top: 7px;
+    color: red;
+}
+.pageHeader{
+    color: rgba(0, 0, 0, 0.775);
+}
+
+div.icons{
+    margin-top: 30px;
+    color: black;
+} */

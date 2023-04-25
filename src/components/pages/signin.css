@@ -1,0 +1,55 @@
+.outerContainer {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    height: 650px;
+}
+
+.background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: #74ab86;
+}
+
+.image {
+    width: 100%;
+    height: 600px;
+    object-fit: contain;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-top: 100px;
+}
+
+label {
+    margin-top: 6rem;
+    font-size: 1.2rem;
+}
+
+select {
+    width: 200px;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.signIn {
+    width: 100px;
+    margin-top: 6rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+h1{
+    font-size: 1.8rem;
+    justify-content: flex-start;
+}

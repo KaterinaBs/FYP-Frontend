@@ -1,0 +1,17 @@
+div#root {
+    background: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+div#root div.centrepane{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    /*max-width: 1000px;*/
+    display: grid;
+    grid-template-rows: auto  1fr auto;
+}
+div#root div.centrepane > main {
+    padding:30px;
+    width: 100%;
+}

@@ -1,0 +1,35 @@
+div.wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    margin-top: 10px;
+}
+div.panels{
+    width: 900px;  
+}
+div.items{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background-color: #95b6abbe;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+div.title{
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer; 
+    font-size:20px;
+}
+.content{
+    color: black;
+    background-color: aliceblue;
+    overflow: hidden;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.icons{
+    margin-top: 10px;
+}
