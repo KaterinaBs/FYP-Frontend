@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import useLoad from "../api/useLoad";
 import API from '../api/API';
-import './announcements.css'
 import Panel from "../UI/Panel.js";
 import Modal from '../UI/modal.js';
 import AnnouncementsForm from "../UI/AnnouncementsForm";

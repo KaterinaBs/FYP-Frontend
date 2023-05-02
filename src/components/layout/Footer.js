@@ -2,7 +2,6 @@ import './Footer.css';
 import React from 'react';
 import { useAuth } from '../auth/useAuth';
 
-
 function Footer() {
     const { loggedInUser } = useAuth();
     return (

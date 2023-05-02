@@ -23,7 +23,6 @@ export default function AssignmentsForm({ onDismiss, onSubmit, initialAssignment
     //View------------------------------------------
     return (
         <Form className="AssignmentsBorderedForm" onDismiss={onDismiss} onSubmit={handleSubmit}>
-            {/* <label className="addAssignmentLabel"><h1>Add Assignment</h1></label> */}
             <Form.Item className='items'
                 label="Title"
                 htmlFor="Title"

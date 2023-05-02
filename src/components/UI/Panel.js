@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import './AssignmentsPanel.css'
+
 
 function Panel({children,title, onDelete,onEdit}){
     const [open,setOpen] = useState(false);
