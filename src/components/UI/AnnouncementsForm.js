@@ -10,8 +10,6 @@ export default function AnnouncementsForm({ onDismiss, onSubmit, initialAnnounce
     //Initialisation--------------------------------
     
     const isValid = {
-        // AnnouncementsTitle: () => null,
-        // AnnouncementsDetails: ()=> null
         AnnouncementsTitle: (title) => title.length > 10,
         AnnouncementsDetails: (details) => details.length > 10
     }

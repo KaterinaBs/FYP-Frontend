@@ -2,7 +2,6 @@ import React from 'react';
 import { useAuth } from '../auth/useAuth.js';
 import { CardContainer } from '../UI/Card.js';
 import ModuleCard from '../UI/ModuleCard.js';
-import './home.css'
 import useLoad from '../api/useLoad.js';
 
 

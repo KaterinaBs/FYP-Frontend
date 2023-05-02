@@ -10,31 +10,30 @@ function Header() {
     const { loggedInUser } = useAuth();
 
 
-    const getLinkStyle = ({isActive}) => (isActive ? 'navSelected' : null)
+    const getLinkStyle = ({ isActive }) => (isActive ? 'navSelected' : null)
     return (
         loggedInUser &&
         <header>
-            <div className='navBar' id = 'TopNav'>
-            <ul className = 'list'>
-                <li><NavLink to='/' className ={getLinkStyle}> My Modules </NavLink></li>
-                <li><NavLink to = '/announcements'className='announcements'>Announcements</NavLink></li>
-                <li><NavLink to='/myaccount' className='account'> My Account </NavLink></li>
-            </ul>
+            <div className='navBar' id='TopNav'>
+                <ul className='list'>
+                    <li><NavLink to='/' className={getLinkStyle}> My Modules </NavLink></li>
+                    <li><NavLink to='/announcements' className='announcements'>Announcements</NavLink></li>
+                    <li><NavLink to='/myaccount' className='account'> My Account </NavLink></li>
+                </ul>
             </div>
             <img className='logout' src={ExitImage}></img>
-            <Link to='/' className='logo'> <img className='webTitle' src={image}></img></Link> 
+            <Link to='/' className='logo'> <img className='webTitle' src={image}></img></Link>
             {
-        loggedInUser &&
-         <div className="welcome"><p>{`Welcome ${loggedInUser.TeacherName}`}</p></div>
-      }
-        </header> 
-       
+                loggedInUser &&
+                <div className="welcome"><p>{`Welcome ${loggedInUser.TeacherName}`}</p></div>
+            }
+        </header>
+
     )
 }
 
 
 
 export default Header;
-  
-  
-  
+
+

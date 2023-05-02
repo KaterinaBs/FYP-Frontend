@@ -71,7 +71,7 @@ export default function Homework() {
         <section>
             <div className='topSection'>
                 <Modal open={openModal} onClose={handleClose}>
-                    <HomeworkForm  className = "form" onSubmit={SubmitHandler} onDismiss={handleDismiss} />
+                    <HomeworkForm className="form" onSubmit={SubmitHandler} onDismiss={handleDismiss} />
                 </Modal>
                 <h1 className='homework'> Homework</h1>
                 <button className='add' onClick={() => handleAdd(true)} >Add Homework</button>

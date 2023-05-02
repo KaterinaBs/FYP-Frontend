@@ -1,17 +1,19 @@
-h1.homework{
+h1.homework {
     margin-left: 30px;
 }
-ul.homeworks{
-    width:80%;
+
+ul.homeworks {
+    width: 80%;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: space-between;
     padding: 10px;
     margin-top: 10px;
     margin-left: 30px;
     background-color: rgba(216, 209, 209, 0.267);
 }
-button.add{
+
+button.add {
     color: white;
     background-color: #74ab85;
     border: 0px;
@@ -21,19 +23,16 @@ button.add{
     margin-right: 20px;
     font-size: 20px;
     cursor: pointer;
-    
+
 }
-div.icons{
+
+div.icons {
     color: black;
     cursor: pointer;
 }
-div.topSection{
+
+div.topSection {
     display: flex;
-    flex-direction:row;
-    justify-content:space-between;
+    flex-direction: row;
+    justify-content: space-between;
 }
-
-
-
-
-
